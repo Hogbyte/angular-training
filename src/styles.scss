@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+
+li .title {
+    display: inline-block;
+  }
+  
+  li:hover .title {
+    display: inline-block;
+    text-decoration: underline;
+  }
+  
+  li .release-date {
+    display: inline-block;
+    padding: 0 5px 0 5px;
+    color: darkgray;
+    border: 1px solid gray;
+    border-radius: 2px;
+    font-size: smaller;
+    opacity: 0;
+    transition: opacity 2s;
+  }
+  
+  li:hover .release-date {  
+    opacity: 1;  
+  }
